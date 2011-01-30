@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+		<link href='/static/style.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<div id="logo">
+					<h4>mr.Shu's thoughts, ideas and random writings</h4>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="">projects</a></li>
+						<li><a href="">about</a></li>
+						<li><a href="">work</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="body">
+			{% block content %}
+			{% endblock %}
+			</div>
+			<div id="footer">
+				<p> If you have got anything to say, feel free to contact me via Twitter, Github or email.</p>	
+			</div>
+		</div>
+	</body>
+</html>

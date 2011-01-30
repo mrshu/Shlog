@@ -1,0 +1,10 @@
+
+{% for article in articles %}
+
+<div class="list-item">
+	<a href="{{ article.url }}" class="title"> {{ article.title }} </a>
+	<p class="desc"> {{ article.desc }} </p>
+	<span class="date"> {{ article.time }} </span>
+</div> 		
+
+{% endfor %}
